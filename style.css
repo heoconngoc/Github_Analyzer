@@ -1,0 +1,209 @@
+/* =========================
+   LIGHT MODE
+   ========================= */
+:root {
+  --bg: #f5f7fb;
+  --card-bg: #ffffff;
+  --text: #1f2933;
+  --muted-text: #555;
+  --border: #d1d5db;
+  --primary: #2563eb;
+}
+
+/* =========================
+   DARK MODE
+   ========================= */
+body.dark {
+  --bg: #0f172a;
+  --card-bg: #1e293b;
+  --text: #e5e7eb;
+  --muted-text: #9ca3af;
+  --border: #334155;
+  --primary: #3b82f6;
+}
+
+/* =========================
+   GLOBAL
+   ========================= */
+body {
+  margin: 0;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+main.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+footer {
+  position: static;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 12px 0;
+  background: #333;
+  color: #fff;
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.header-left {
+  width: 40px;
+}
+
+.header-title {
+  flex: 1;
+  text-align: center;
+}
+
+#toggle_bt {
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* =========================
+   SEARCH FORM
+   ========================= */
+#div_search {
+  background: var(--card-bg);
+  padding: 16px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+#input_search {
+  flex: 1;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text);
+}
+
+#input_search:focus {
+  outline: none;
+  border-color: var(--primary);
+}
+
+#bt_search {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 8px;
+  background: var(--primary);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#bt_search:hover {
+  opacity: 0.9;
+}
+
+/* =========================
+   CARD
+   ========================= */
+.card {
+  background: var(--card-bg);
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  margin-bottom: 24px;
+}
+
+.card-hidden {
+  display: none;
+}
+
+/* =========================
+   USER CARD
+   ========================= */
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.card h2 {
+  margin: 8px 0;
+}
+
+.card p {
+  margin: 6px 0;
+  color: var(--muted-text);
+}
+
+/* =========================
+   REPO LIST
+   ========================= */
+#repo_card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#repo_card li {
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+body.dark #repo_card li {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+#repo_card small {
+  color: var(--muted-text);
+}
+
+/* =========================
+   LOADING
+   ========================= */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  color: var(--muted-text);
+}
+
+/* =========================
+   TRANSITION (SMOOTH THEME)
+   ========================= */
+body,
+.card,
+input,
+button {
+  transition:
+    background-color 0.25s,
+    color 0.25s,
+    border-color 0.25s;
+}
+
+#toggle_bt:hover {
+  background: rgba(0, 0, 0.05);
+}
+
+body.dark #toggle_bt:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
