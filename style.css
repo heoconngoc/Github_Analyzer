@@ -132,6 +132,11 @@ footer {
   margin-bottom: 24px;
 }
 
+.card_user {
+  display: flex;
+  align-items: center;
+}
+
 .card-hidden {
   display: none;
 }
@@ -152,6 +157,16 @@ footer {
 .card p {
   margin: 6px 0;
   color: var(--muted-text);
+}
+
+#avatar_card {
+  flex: 1;
+  text-align: center;
+}
+
+#info_card {
+  margin-left: 5%;
+  flex: 2;
 }
 
 /* =========================
@@ -206,4 +221,117 @@ button {
 
 body.dark #toggle_bt:hover {
   background: rgba(255, 255, 255, 0.5);
+}
+
+/* =========================
+   TRENDING
+   ========================= */
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.trending-filters button {
+  margin-left: 6px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.trending-filters .active {
+  background: var(--primary);
+  color: white;
+}
+
+.trending-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trending-item {
+  padding: 14px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  background: rgba(0, 0, 0, 0.03);
+  transition: background-color 0.25s;
+}
+
+body.dark .trending-item {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.trending-item:hover {
+  background: rgba(0, 0, 0, 0.06);
+}
+
+.trending-item a {
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.trending-item p {
+  margin: 6px 0;
+  color: var(--muted-text);
+  font-size: 14px;
+}
+
+.trending-item small {
+  font-size: 13px;
+  color: var(--muted-text);
+}
+
+.load-more {
+  margin-top: 16px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.load-more.hidden {
+  display: none;
+}
+
+/* =========================
+   TABS
+   ========================= */
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.tab-button {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: transparent;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.tab-button.active {
+  background: var(--primary);
+  color: white;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
 }

@@ -16,19 +16,46 @@
       <button id="toggle_bt">🌙</button>
     </div>
 
-    <form id="div_search">
-      <input type="search" id="input_search" placeholder="Enter GitHub username" autocomplete="off" required>
-      <button type="submit" id="bt_search">Search</button>
-    </form>
+    <div class="tabs">
+      <button class="tab-button active" data-tab="user">User Info</button>
+      <button class="tab-button" data-tab="trending">Trending</button>
+    </div>
 
-    <section id="user_card" class="card card-hidden"></section>
+    <!-- USER TAB -->
+    <section id="tab-user" class="tab-content active">
+      <form id="div_search">
+        <input type="search" id="input_search" placeholder="Enter GitHub username" autocomplete="off" required>
+        <button type="submit" id="bt_search">Search</button>
+      </form>
 
-    <section id="repo_card" class="card card-hidden"></section>
+      <section id="user_card" class="card_user card card-hidden"></section>
+      <section id="repo_card" class="card card-hidden"></section>
+    </section>
+
+
+    <!-- TRENDING TAB -->
+    <section id="tab-trending" class="tab-content">
+      <section id="trending_card" class="card">
+        <div class="trending-header">
+          <h3>🔥 Trending Repositories</h3>
+          <div class="trending-filters">
+            <button data-range="week">7 Days</button>
+            <button data-range="month">30 Days</button>
+            <button data-range="all" class="active">All Time</button>
+          </div>
+        </div>
+
+        <ul id="trending_list"></ul>
+
+        <button id="load_more_trending" class="load-more hidden"> Load more </button>
+      </section>
+    </section>
+    
   </main>
 
-  <footer> © 2026 hoangtunanggia </footer>
+  <footer> © 2026 heoconngoc </footer>
 
-  <script src="script.js"></script>
+  <script type="module" src="src/main.js"></script>
 </body>
 
 </html>

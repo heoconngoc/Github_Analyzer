@@ -37,4 +37,13 @@ async function getRepo() {
   console.log(repos.map((repo => [repo.name, repo.size])))
 };
 
-getRepo();
+// getRepo();
+
+import { fetchUser, fetchRepo, fetchTrendingRepo } from "./src/api/githubApi.js";
+
+async function test() {
+  const data = await fetchTrendingRepo("2026-04-20");
+  console.log(data);
+}
+
+test();
