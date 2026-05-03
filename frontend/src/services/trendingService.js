@@ -1,14 +1,9 @@
-import { fetchTrendingRepo } from "../api/githubApi.js";
+export async function getTopTrendingRepo(range = "all", page = 1) {
+  const res = await fetch(`http://localhost:3001/api/trending?range=${range}&page=${page}`);
 
-export async function getTopTrendingRepo(date, page) {
-  if (page < 1 || !Number.isInteger(page)) {
-    throw new Error("Invalid page for trending repos");
+  if (!res.ok) {
+    throw new Error("Failed to fetch trending data from backend");
   }
 
-  const trendingRepos = await fetchTrendingRepo(date, page);
-  return {
-    repos: trendingRepos.items,
-    hasMore: page * 10 < trendingRepos.total_count,
-    total: trendingRepos.total_count
-  };
-};
+  return res.json();
+}

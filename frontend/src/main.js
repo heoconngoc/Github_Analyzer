@@ -13,24 +13,16 @@ import { renderTrending, clearTrending, toggleLoadMore } from "./ui/renderTrendi
 let currentTrendingPage = 1;
 let currentTrendingRange = "all"; // "week" | "month" | "all"
 
-function getSinceDate(range) {
-  if (range === "all") return null;
-
-  const today = new Date();
-  const days = range === "week" ? 7 : 30;
-
-  today.setDate(today.getDate() - days);
-  return today.toISOString().split("T")[0];
-}
-
 async function loadTrending({ reset = false } = {}) {
   if (reset) {
     currentTrendingPage = 1;
     clearTrending();
   }
-  const since = getSinceDate(currentTrendingRange);
 
-  const { repos, hasMore } = await getTopTrendingRepo(since, currentTrendingPage);
+  const { repos, hasMore } = await getTopTrendingRepo(
+    currentTrendingRange,
+    currentTrendingPage
+  );
 
   renderTrending(repos, { append: !reset });
   toggleLoadMore(hasMore);
