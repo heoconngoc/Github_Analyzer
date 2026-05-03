@@ -21,7 +21,7 @@ export function renderRepos(repos) {
           <small>
             ⭐ ${repo.stargazers_count} || 
             ${repo.language ? "Language: " + repo.language : ""} || 
-            ${repo.size ? "Size: " + repo.size : ""}
+            ${repo.size ? "Size: " + repo.size + " KB": ""}
           </small>
         </li>
       `).join("")}
