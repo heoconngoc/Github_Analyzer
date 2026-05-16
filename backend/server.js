@@ -7,6 +7,9 @@ import trendingRouter from "./routers/trending_repos.js";
 import { initDatabase } from "./db/init.js";
 import { updateTrendingCache } from "./services/trendingCacheService.js";
 
+import dotenv from "dotenv";
+dotenv.config();
+
 const app = express();
 const PORT = 3001;
 
@@ -47,26 +50,31 @@ app.listen(PORT, () => {
    BACKGROUND JOBS
    ========================= */
 
-// Run once immediately when server starts
-(async () => {
-  try {
-    console.log("Initializing trending cache...");
-    await updateTrendingCache("week");
-    await updateTrendingCache("month");
-    await updateTrendingCache("all");
-  } catch (err) {
-    console.error("Initial trending cache failed:", err.message);
-  }
-})();
+const OFFLINE_MODE = process.env.OFFLINE_MODE === "true";
+console.log("OFFLINE_MODE:" + OFFLINE_MODE);
 
-// Run every 1 hour afterwards
-setInterval(async () => {
-  try {
-    console.log("Updating trending cache...");
-    await updateTrendingCache("week");
-    await updateTrendingCache("month");
-    await updateTrendingCache("all");
-  } catch (err) {
-    console.error("Scheduled trending cache failed:", err.message);
-  }
-}, 60 * 60 * 1000);
+if (!OFFLINE_MODE) {
+  (async () => {
+    try {
+      console.log("Initializing trending cache for the first time...");
+      await updateTrendingCache("week");
+      await updateTrendingCache("month");
+      await updateTrendingCache("all");
+    } catch (err) {
+      console.error("Initial trending cache failed:", err.message);
+    }
+  })();
+
+  setInterval(async () => {
+    try {
+      console.log("Updating trending cache after 1 hour...");
+      await updateTrendingCache("week");
+      await updateTrendingCache("month");
+      await updateTrendingCache("all");
+    } catch (err) {
+      console.error("Scheduled trending cache failed:", err.message);
+    }
+  }, 60 * 60 * 1000);
+} else {
+  console.log("Running in OFFLINE MODE — no external API calls");
+}

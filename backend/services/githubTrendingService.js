@@ -1,4 +1,8 @@
+const OFFLINE_MODE = process.env.OFFLINE_MODE === "true";
+
 export async function fetchTrendingFromGithub(range = "all") {
+  if (OFFLINE_MODE) { throw new Error("fetchTrendingFromGithub called in OFFLINE mode"); }
+
   let query = "stars:>1";
 
   if (range !== "all") {
