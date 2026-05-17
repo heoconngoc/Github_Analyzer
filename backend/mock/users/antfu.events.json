@@ -1,0 +1,4702 @@
+[
+  {
+    "id": "11924419117",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 948349031,
+      "name": "antfu/nip",
+      "url": "https://api.github.com/repos/antfu/nip"
+    },
+    "payload": {
+      "repository_id": 948349031,
+      "push_id": 34215011851,
+      "ref": "refs/heads/main",
+      "head": "e40b41a8cf04e5d4660cc3dca73bb260e6ebf531",
+      "before": "b2c276449b965de985436291f8f866e80632c765"
+    },
+    "public": true,
+    "created_at": "2026-05-15T22:11:53Z"
+  },
+  {
+    "id": "11897388476",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 396613541,
+      "name": "antfu-collective/vite-plugin-inspect",
+      "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect"
+    },
+    "payload": {
+      "repository_id": 396613541,
+      "push_id": 34188017808,
+      "ref": "refs/heads/main",
+      "head": "3bea43efbd80046e82e097d313b9b80d7122319b",
+      "before": "8d150e3f3df981d8141920891c7aad911fbd03aa"
+    },
+    "public": true,
+    "created_at": "2026-05-15T10:14:52Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "9500352340",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 396613541,
+      "name": "antfu-collective/vite-plugin-inspect",
+      "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/169",
+        "repository_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect",
+        "labels_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/169/labels{/name}",
+        "comments_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/169/comments",
+        "events_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/169/events",
+        "html_url": "https://github.com/antfu-collective/vite-plugin-inspect/issues/169",
+        "id": 4199424202,
+        "node_id": "I_kwDOF6PXpc76TiDK",
+        "number": 169,
+        "title": "Incorrect path in `dist/client/index.html`",
+        "user": {
+          "login": "skirtles-code",
+          "id": 65301168,
+          "node_id": "MDQ6VXNlcjY1MzAxMTY4",
+          "avatar_url": "https://avatars.githubusercontent.com/u/65301168?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/skirtles-code",
+          "html_url": "https://github.com/skirtles-code",
+          "followers_url": "https://api.github.com/users/skirtles-code/followers",
+          "following_url": "https://api.github.com/users/skirtles-code/following{/other_user}",
+          "gists_url": "https://api.github.com/users/skirtles-code/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/skirtles-code/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/skirtles-code/subscriptions",
+          "organizations_url": "https://api.github.com/users/skirtles-code/orgs",
+          "repos_url": "https://api.github.com/users/skirtles-code/repos",
+          "events_url": "https://api.github.com/users/skirtles-code/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/skirtles-code/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [
+          {
+            "login": "userquin",
+            "id": 6311119,
+            "node_id": "MDQ6VXNlcjYzMTExMTk=",
+            "avatar_url": "https://avatars.githubusercontent.com/u/6311119?v=4",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/userquin",
+            "html_url": "https://github.com/userquin",
+            "followers_url": "https://api.github.com/users/userquin/followers",
+            "following_url": "https://api.github.com/users/userquin/following{/other_user}",
+            "gists_url": "https://api.github.com/users/userquin/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/userquin/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/userquin/subscriptions",
+            "organizations_url": "https://api.github.com/users/userquin/orgs",
+            "repos_url": "https://api.github.com/users/userquin/repos",
+            "events_url": "https://api.github.com/users/userquin/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/userquin/received_events",
+            "type": "User",
+            "user_view_type": "public",
+            "site_admin": false
+          }
+        ],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2026-04-03T09:11:37Z",
+        "updated_at": "2026-05-15T10:12:57Z",
+        "closed_at": "2026-05-15T10:12:57Z",
+        "assignee": {
+          "login": "userquin",
+          "id": 6311119,
+          "node_id": "MDQ6VXNlcjYzMTExMTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6311119?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/userquin",
+          "html_url": "https://github.com/userquin",
+          "followers_url": "https://api.github.com/users/userquin/followers",
+          "following_url": "https://api.github.com/users/userquin/following{/other_user}",
+          "gists_url": "https://api.github.com/users/userquin/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/userquin/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/userquin/subscriptions",
+          "organizations_url": "https://api.github.com/users/userquin/orgs",
+          "repos_url": "https://api.github.com/users/userquin/repos",
+          "events_url": "https://api.github.com/users/userquin/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/userquin/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "issue_field_values": [],
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Describe the bug\n\nThis line in `dist/client/index.html` for 12.0.0-beta.1 appears to be tied to the build runner that performed the build:\n\n```html\n<script src=\"/@fs//home/runner/work/vite-plugin-inspect/vite-plugin-inspect/node_modules/.pnpm/@vitejs+devtools@0.1.11_@pnpm+logger@1001.0.1_typescript@5.9.3_vite@8.0.2/node_modules/@vitejs/devtools/dist/client/inject.js\" type=\"module\"></script>\n```\n\nFull file: https://app.unpkg.com/vite-plugin-inspect@12.0.0-beta.1/files/dist/client/index.html#L29\n\nI did wonder whether this was a special path of some kind, but running the build locally it uses a different path (specific to my system), which makes me think this isn't intentional.\n\nWhen I try to use `vite-plugin-inspect@12.0.0-beta.1` with a basic Vite project and open `http://localhost:5173/.vite-inspect/` I see a network error trying to load this file.\n\n### Reproduction\n\nhttps://app.unpkg.com/vite-plugin-inspect@12.0.0-beta.1/files/dist/client/index.html#L29\n\n### System Info\n\n```Shell\nNot relevant.\n```\n\n### Used Package Manager\n\npnpm\n\n### Validations\n\n- [x] Follow our [Code of Conduct](https://github.com/antfu/.github/blob/main/CODE_OF_CONDUCT.md)\n- [x] Read the [Contributing Guide](https://github.com/antfu/contribute).\n- [x] Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.\n- [x] Check that this is a concrete bug. For Q&A, please open a GitHub Discussion instead.\n- [x] The provided reproduction is a [minimal reproducible](https://stackoverflow.com/help/minimal-reproducible-example) of the bug.\n\n### Contributions\n\n- [ ] I am willing to submit a PR to fix this issue\n- [ ] I am willing to submit a PR with failing tests (actually just go ahead and do it, thanks!)",
+        "reactions": {
+          "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/169/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/169/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T10:12:59Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "9500349410",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 396613541,
+      "name": "antfu-collective/vite-plugin-inspect",
+      "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/170",
+        "repository_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect",
+        "labels_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/170/labels{/name}",
+        "comments_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/170/comments",
+        "events_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/170/events",
+        "html_url": "https://github.com/antfu-collective/vite-plugin-inspect/pull/170",
+        "id": 4200361144,
+        "node_id": "PR_kwDOF6PXpc7Pyv9n",
+        "number": 170,
+        "title": "fix(client): don't include `vite:devtools:injection` plugin at build time",
+        "user": {
+          "login": "userquin",
+          "id": 6311119,
+          "node_id": "MDQ6VXNlcjYzMTExMTk=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/6311119?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/userquin",
+          "html_url": "https://github.com/userquin",
+          "followers_url": "https://api.github.com/users/userquin/followers",
+          "following_url": "https://api.github.com/users/userquin/following{/other_user}",
+          "gists_url": "https://api.github.com/users/userquin/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/userquin/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/userquin/subscriptions",
+          "organizations_url": "https://api.github.com/users/userquin/orgs",
+          "repos_url": "https://api.github.com/users/userquin/repos",
+          "events_url": "https://api.github.com/users/userquin/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/userquin/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 4,
+        "created_at": "2026-04-03T12:33:15Z",
+        "updated_at": "2026-05-15T10:12:53Z",
+        "closed_at": "2026-05-15T10:12:52Z",
+        "assignee": null,
+        "issue_field_values": [],
+        "type": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/pulls/170",
+          "html_url": "https://github.com/antfu-collective/vite-plugin-inspect/pull/170",
+          "diff_url": "https://github.com/antfu-collective/vite-plugin-inspect/pull/170.diff",
+          "patch_url": "https://github.com/antfu-collective/vite-plugin-inspect/pull/170.patch",
+          "merged_at": null
+        },
+        "body": "<!-- DO NOT IGNORE THE TEMPLATE!\r\n\r\nThank you for contributing!\r\n\r\n---\r\n\r\n> Please be aware that vibe-coding contributions are **🚫 STRICTLY PROHIBITED**. \r\n> We are humans behind these open source projects, trying hard to maintain good quality and a healthy community. \r\n> Not only do vibe-coding contributions pollute the code, but they also drain A LOT of unnecessary energy and time from maintainers and toxify the community and collaboration.\r\n>\r\n> All vibe-coded, AI-generated PRs will be rejected and closed without further notice. In severe cases, your account might be banned organization-wide and reported to GitHub.\r\n>\r\n> **PLEASE SHOW SOME RESPECT** and do not do so.\r\n\r\n---\r\n\r\nBefore submitting the PR, please make sure you do the following:\r\n\r\n- Read the [Contributing Guide](https://github.com/antfu/contribute).\r\n- Check that there isn't already a PR that solves the problem the same way to avoid creating a duplicate.\r\n- Provide a description in this PR that addresses **what** the PR is solving and **WHY**, or reference the issue that it solves (e.g. `fixes #123`).\r\n- Ideally, include relevant tests that fail without this PR but pass with it.\r\n\r\n-->\r\n\r\n- [x] <- Keep this line and put an `x` between the brackts.\r\n\r\n### Description\r\n\r\nWhen building the client, we use vite devtools plugin and this is wrong, since it will add the module at client/index.html using local dist inject path: `/@fs//home/<some-path>/.node_modules/<some-path>/@vitejs/devtools/dist/client/inject.js`.\r\n\r\nThis PR includes:\r\n- removes `vite:devtools:injection` from `@vitejs/devtools` plugin (from vite config file at client), current `client/index.html` at npm registry contains this: `<script src=\"/@fs//home/runner/work/vite-plugin-inspect/vite-plugin-inspect/node_modules/.pnpm/@vitejs+devtools@0.1.11_@pnpm+logger@1001.0.1_typescript@5.9.3_vite@8.0.2/node_modules/@vitejs/devtools/dist/client/inject.js\" type=\"module\"></script>`\r\n- adds a new Vite plugin at client to write a module we can hack later at node:  `<script src=\"vite-plugin-inspect-devtools-injector.js\" type=\"module\"></script>`\r\n- adds a new middleware to replace `vite-plugin-inspect-devtools-injector.js` at client entry point: now the middleware just loads the client entry point and replaces `vite-plugin-inspect-devtools-injector.js` with the original `/@vitejs/devtools/dist/client/inject.js` but using consumer path\r\n\r\nThis PR also includes a change at playground tsconfig.json file to use `bundler` instead `node` module resolution: Vite 8 has removed node10 types.\r\n\r\n<!-- Please insert your description here and provide especially info about the \"what\" this PR is solving, and \"WHY\" -->\r\n\r\n### Linked Issues\r\n\r\nfixes #169\r\n\r\n### Additional context\r\n\r\n<!-- e.g. is there anything you'd like reviewers to focus on? -->\r\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/170/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/170/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/comments/4458901410",
+        "html_url": "https://github.com/antfu-collective/vite-plugin-inspect/pull/170#issuecomment-4458901410",
+        "issue_url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/170",
+        "id": 4458901410,
+        "node_id": "IC_kwDOF6PXpc8AAAABCcVvog",
+        "user": {
+          "login": "antfu",
+          "id": 11247099,
+          "node_id": "MDQ6VXNlcjExMjQ3MDk5",
+          "avatar_url": "https://avatars.githubusercontent.com/u/11247099?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/antfu",
+          "html_url": "https://github.com/antfu",
+          "followers_url": "https://api.github.com/users/antfu/followers",
+          "following_url": "https://api.github.com/users/antfu/following{/other_user}",
+          "gists_url": "https://api.github.com/users/antfu/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/antfu/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/antfu/subscriptions",
+          "organizations_url": "https://api.github.com/users/antfu/orgs",
+          "repos_url": "https://api.github.com/users/antfu/repos",
+          "events_url": "https://api.github.com/users/antfu/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/antfu/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-05-15T10:12:52Z",
+        "updated_at": "2026-05-15T10:12:52Z",
+        "body": "This should already be fixed on the Vite devtools side. Thanks",
+        "reactions": {
+          "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/issues/comments/4458901410/reactions",
+          "total_count": 1,
+          "+1": 1,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T10:12:52Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "9500349075",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 396613541,
+      "name": "antfu-collective/vite-plugin-inspect",
+      "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 170,
+      "pull_request": {
+        "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/pulls/170",
+        "id": 3486187367,
+        "number": 170,
+        "head": {
+          "ref": "userquin/fix-client-build",
+          "sha": "37def3203b98a87e8b7a786cbc3dffb438f7d7b8",
+          "repo": {
+            "id": 396613541,
+            "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect",
+            "name": "vite-plugin-inspect"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "7c2b0ab52ffe4bd4a4a92a129ed2f3bc40a25eb1",
+          "repo": {
+            "id": 396613541,
+            "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect",
+            "name": "vite-plugin-inspect"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-04-09T09:20:34Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11896871337",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 396613541,
+      "name": "antfu-collective/vite-plugin-inspect",
+      "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect"
+    },
+    "payload": {
+      "ref": "antfu/update-devtools-kit",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/update-devtools-kit",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T10:01:28Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "9499963070",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 396613541,
+      "name": "antfu-collective/vite-plugin-inspect",
+      "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 177,
+      "pull_request": {
+        "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/pulls/177",
+        "id": 3687365065,
+        "number": 177,
+        "head": {
+          "ref": "antfu/update-devtools-kit",
+          "sha": "df6e31a09607e88db3a3709ac0846c5a84a55179",
+          "repo": {
+            "id": 396613541,
+            "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect",
+            "name": "vite-plugin-inspect"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "afc00ae5bcb20500c1f36485f011ab67142c7fe7",
+          "repo": {
+            "id": 396613541,
+            "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect",
+            "name": "vite-plugin-inspect"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T10:01:24Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11896869779",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 396613541,
+      "name": "antfu-collective/vite-plugin-inspect",
+      "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect"
+    },
+    "payload": {
+      "repository_id": 396613541,
+      "push_id": 34187499117,
+      "ref": "refs/heads/main",
+      "head": "8d150e3f3df981d8141920891c7aad911fbd03aa",
+      "before": "afc00ae5bcb20500c1f36485f011ab67142c7fe7"
+    },
+    "public": true,
+    "created_at": "2026-05-15T10:01:25Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11896806726",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34187436212,
+      "ref": "refs/heads/antfu/devframe-v0.3",
+      "head": "1384f41ad9002d62e25782012740713533594940",
+      "before": "f4afa1ed5ad4a60f6bd4b9a895d67d06491b42cf"
+    },
+    "public": true,
+    "created_at": "2026-05-15T10:00:06Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11886367364",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34176988613,
+      "ref": "refs/heads/antfu/devframe-v0.3",
+      "head": "f4afa1ed5ad4a60f6bd4b9a895d67d06491b42cf",
+      "before": "8be0a15b1b62a364f616cefdf657d85714709008"
+    },
+    "public": true,
+    "created_at": "2026-05-15T04:42:20Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "9490397933",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 396613541,
+      "name": "antfu-collective/vite-plugin-inspect",
+      "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 177,
+      "pull_request": {
+        "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect/pulls/177",
+        "id": 3687365065,
+        "number": 177,
+        "head": {
+          "ref": "antfu/update-devtools-kit",
+          "sha": "df6e31a09607e88db3a3709ac0846c5a84a55179",
+          "repo": {
+            "id": 396613541,
+            "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect",
+            "name": "vite-plugin-inspect"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "afc00ae5bcb20500c1f36485f011ab67142c7fe7",
+          "repo": {
+            "id": 396613541,
+            "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect",
+            "name": "vite-plugin-inspect"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T04:41:39Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11886339437",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 396613541,
+      "name": "antfu-collective/vite-plugin-inspect",
+      "url": "https://api.github.com/repos/antfu-collective/vite-plugin-inspect"
+    },
+    "payload": {
+      "ref": "antfu/update-devtools-kit",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/update-devtools-kit",
+      "master_branch": "main",
+      "description": "Inspect the intermediate state of Vite plugins",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T04:41:13Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "9490263605",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 350,
+      "pull_request": {
+        "url": "https://api.github.com/repos/vitejs/devtools/pulls/350",
+        "id": 3687344754,
+        "number": 350,
+        "head": {
+          "ref": "antfu/devframe-v0.3",
+          "sha": "1384f41ad9002d62e25782012740713533594940",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "31c479cfb3e9b03f2cef581e3e43f0bf1cb9189e",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T04:35:26Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11886189648",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "ref": "antfu/devframe-v0.3",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/devframe-v0.3",
+      "master_branch": "main",
+      "description": "DevTools for Vite (Rolldown). ",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T04:35:14Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11885772427",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34176392837,
+      "ref": "refs/heads/main",
+      "head": "31c479cfb3e9b03f2cef581e3e43f0bf1cb9189e",
+      "before": "d1dddbfed8d9150a8279d57289f98dae49ad298a"
+    },
+    "public": true,
+    "created_at": "2026-05-15T04:18:11Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11885751955",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "ref": "antfu/fix-ci-errors",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/fix-ci-errors",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T04:17:20Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11885751524",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34176371876,
+      "ref": "refs/heads/main",
+      "head": "d1dddbfed8d9150a8279d57289f98dae49ad298a",
+      "before": "d8efd10912bc3a961216b52245f4f150e2536586"
+    },
+    "public": true,
+    "created_at": "2026-05-15T04:17:19Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "9489889167",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 349,
+      "pull_request": {
+        "url": "https://api.github.com/repos/vitejs/devtools/pulls/349",
+        "id": 3686854819,
+        "number": 349,
+        "head": {
+          "ref": "antfu/fix-ci-errors",
+          "sha": "90cca628115e082d3b29857f890a1a821adeae9e",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "d8efd10912bc3a961216b52245f4f150e2536586",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T04:17:18Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11883549067",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34174166780,
+      "ref": "refs/heads/main",
+      "head": "6f75d5c65bdf9690a53402b5301650c47d960584",
+      "before": "d9b7ebb1dfa425f38b4fed73b1dc4f8b34ef739a"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:50:30Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11883504030",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "ref": "antfu/migrate-to-nostics",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/migrate-to-nostics",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:48:19Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11883503310",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34174120992,
+      "ref": "refs/heads/main",
+      "head": "d9b7ebb1dfa425f38b4fed73b1dc4f8b34ef739a",
+      "before": "17c1c743ff3b4a824e8a56a111e30d119233fc84"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:48:17Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "9487928079",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 19,
+      "pull_request": {
+        "url": "https://api.github.com/repos/devframes/devframe/pulls/19",
+        "id": 3686928463,
+        "number": 19,
+        "head": {
+          "ref": "antfu/migrate-to-nostics",
+          "sha": "81bed8d9fc369f20c64756d0113cbd2aa98574c5",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "17c1c743ff3b4a824e8a56a111e30d119233fc84",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:48:16Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11883410846",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34174028425,
+      "ref": "refs/heads/antfu/fix-ci-errors",
+      "head": "90cca628115e082d3b29857f890a1a821adeae9e",
+      "before": "9b43d800d2a3762938376b8df607fe285d1f3848"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:44:41Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "9487758021",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 19,
+      "pull_request": {
+        "url": "https://api.github.com/repos/devframes/devframe/pulls/19",
+        "id": 3686928463,
+        "number": 19,
+        "head": {
+          "ref": "antfu/migrate-to-nostics",
+          "sha": "81bed8d9fc369f20c64756d0113cbd2aa98574c5",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "17c1c743ff3b4a824e8a56a111e30d119233fc84",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:41:29Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11883323431",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "ref": "antfu/migrate-to-nostics",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/migrate-to-nostics",
+      "master_branch": "main",
+      "description": "Framework-neutral foundation for building generic DevTools.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:41:10Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11882994425",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34173611735,
+      "ref": "refs/heads/antfu/fix-ci-errors",
+      "head": "9b43d800d2a3762938376b8df607fe285d1f3848",
+      "before": "33bfb6ed5cee16bea20f65276ecaba878e76bd32"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:28:45Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "9487263273",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 349,
+      "pull_request": {
+        "url": "https://api.github.com/repos/vitejs/devtools/pulls/349",
+        "id": 3686854819,
+        "number": 349,
+        "head": {
+          "ref": "antfu/fix-ci-errors",
+          "sha": "90cca628115e082d3b29857f890a1a821adeae9e",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "d8efd10912bc3a961216b52245f4f150e2536586",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:18:40Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11882731169",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "ref": "antfu/fix-ci-errors",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/fix-ci-errors",
+      "master_branch": "main",
+      "description": "DevTools for Vite (Rolldown). ",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:18:22Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11882503140",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "repository_id": 281586897,
+      "push_id": 34173120108,
+      "ref": "refs/heads/main",
+      "head": "13fcddef550ee6e9075f41873374211284f2368f",
+      "before": "43d2f932aabcd4b336f9292101f03fb6833def38"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:09:28Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11882454547",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "repository_id": 281586897,
+      "push_id": 34173071493,
+      "ref": "refs/heads/main",
+      "head": "43d2f932aabcd4b336f9292101f03fb6833def38",
+      "before": "53b8085391da28bc49f145d4eed1a0cc0cc45a66"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:07:35Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11882412945",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34173029918,
+      "ref": "refs/heads/main",
+      "head": "17c1c743ff3b4a824e8a56a111e30d119233fc84",
+      "before": "9da23ceced3f7ec2a4e372996541d53a4147c3bc"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:05:59Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "9486991976",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 18,
+      "pull_request": {
+        "url": "https://api.github.com/repos/devframes/devframe/pulls/18",
+        "id": 3686805773,
+        "number": 18,
+        "head": {
+          "ref": "antfu/dubai",
+          "sha": "198976df1ca1b440ce383a2a27a2378542f8080c",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "9da23ceced3f7ec2a4e372996541d53a4147c3bc",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:05:58Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "9486961135",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/antfu-collective/taze/issues/260",
+        "repository_url": "https://api.github.com/repos/antfu-collective/taze",
+        "labels_url": "https://api.github.com/repos/antfu-collective/taze/issues/260/labels{/name}",
+        "comments_url": "https://api.github.com/repos/antfu-collective/taze/issues/260/comments",
+        "events_url": "https://api.github.com/repos/antfu-collective/taze/issues/260/events",
+        "html_url": "https://github.com/antfu-collective/taze/issues/260",
+        "id": 4332130530,
+        "node_id": "I_kwDOEMis0c8AAAABAjcQ4g",
+        "number": 260,
+        "title": "`taze -w` crashes with `Cannot read properties of undefined (reading 'integrity')` when `packageManager` has a sha512 and the `--include` filter doesn't cover it",
+        "user": {
+          "login": "thashepherd",
+          "id": 711467,
+          "node_id": "MDQ6VXNlcjcxMTQ2Nw==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/711467?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/thashepherd",
+          "html_url": "https://github.com/thashepherd",
+          "followers_url": "https://api.github.com/users/thashepherd/followers",
+          "following_url": "https://api.github.com/users/thashepherd/following{/other_user}",
+          "gists_url": "https://api.github.com/users/thashepherd/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/thashepherd/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/thashepherd/subscriptions",
+          "organizations_url": "https://api.github.com/users/thashepherd/orgs",
+          "repos_url": "https://api.github.com/users/thashepherd/repos",
+          "events_url": "https://api.github.com/users/thashepherd/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/thashepherd/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-04-26T22:14:21Z",
+        "updated_at": "2026-05-15T02:04:38Z",
+        "closed_at": "2026-05-15T02:04:38Z",
+        "assignee": null,
+        "issue_field_values": [],
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Summary\n\nWhen the root `package.json` declares `packageManager: \"pnpm@<ver>+sha512.<hash>\"` and `taze … -w` is run with an `--include` filter that doesn't match the package manager, taze crashes during the write phase trying to refresh the `packageManager` integrity hash. Registry data for the package manager was never fetched (it was outside the include filter), so `resolvedDep.pkgData` is undefined.\n\n## Stack trace\n\n```\nfile:///<dlx>/node_modules/taze/dist/types-BgsyRS69.mjs:1328\n        const integrity = resolvedDep.pkgData.integrity?.[version];\n                                              ^\nTypeError: Cannot read properties of undefined (reading 'integrity')\n    at writePackageJSON (.../taze/dist/types-BgsyRS69.mjs:1328:44)\n    at writePackage (.../taze/dist/types-BgsyRS69.mjs:1537:31)\n    at check (.../taze/dist/cli.mjs:3636:9)\n    at async CAC.<anonymous> (.../taze/dist/cli.mjs:3916:18)\n```\n\n## Root cause\n\nThe crashing block in `writePackageJSON` (line 1316–1336 of `types-BgsyRS69.mjs`):\n\n```js\nif (key === \"packageManager\") {\n  const value = Object.entries(dumpDependencies(pkg.resolved, \"packageManager\"))[0];\n  if (value) {\n    pkg.raw ||= {};\n    const [name, versionWithCaret] = value;\n    const version = versionWithCaret.replace(\"^\", \"\");\n    let packageManagerValue = `${name}@${version}`;\n    const resolvedDep = pkg.resolved.find((dep) => dep.source === \"packageManager\" && dep.name === name);\n    if (resolvedDep?.hexHash) {\n      const integrity = resolvedDep.pkgData.integrity?.[version];   // ← here\n      ...\n    }\n  }\n}\n```\n\n`resolvedDep?.hexHash` is truthy (the original `packageManager` string contained `+sha512.…`), so taze tries to look up fresh integrity for the new version. But because the package manager wasn't matched by `--include`, taze never fetched its registry data, so `resolvedDep.pkgData` is undefined. The `?.` is on `.integrity` rather than on `.pkgData`, so the access throws.\n\n## Fix\n\nOne-character guard:\n\n```diff\n- const integrity = resolvedDep.pkgData.integrity?.[version];\n+ const integrity = resolvedDep.pkgData?.integrity?.[version];\n```\n\nIf `pkgData` is missing, `integrity` ends up undefined, the surrounding `if (integrity)` block is skipped, and the existing sha512 in the `packageManager` string is preserved (which is the right behavior — we don't have new data to refresh it with).\n\n## Reproduction\n\nSingle file. No pnpm catalog, no workspace, no install.\n\n`package.json`:\n\n```json\n{\n  \"name\": \"taze-repro\",\n  \"version\": \"0.0.0\",\n  \"private\": true,\n  \"packageManager\": \"pnpm@10.29.2+sha512.bef43fa759d91fd2da4b319a5a0d13ef7a45bb985a3d7342058470f9d2051a3ba8674e629672654686ef9443ad13a82da2beb9eeb3e0221c87b8154fff9d74b8\",\n  \"dependencies\": {\n    \"storybook\": \"10.4.0-alpha.8\"\n  }\n}\n```\n\nThen:\n\n```\npnpm dlx taze@19.11.0 next --include storybook --include-locked -w\n```\n\nExpected: `storybook` bumped to the latest `@next` version in `package.json`.\nActual: `storybook` is bumped (in memory), then taze crashes before writing, because the `packageManager` field's integrity-refresh path hits the undefined `pkgData`.\n\n## Variations\n\n- Crash also fires on `taze@19.10.0`.\n- Removing the sha512 from the `packageManager` string (e.g. `\"pnpm@10.29.2\"`) avoids the crash — `resolvedDep?.hexHash` becomes falsy and the integrity-refresh block is skipped.\n- Including `pnpm` in the filter (`--include \"storybook,pnpm\"`) also avoids the crash. With `pnpm` in the filter, taze fetches its registry data, `pkgData` is defined, and the integrity lookup proceeds normally. The `storybook` bump is written and the `packageManager` field is preserved unchanged (since pnpm 10.29.2 is already current).\n\n## Environment\n\n- taze 19.11.0 (also 19.10.0)\n- pnpm 10.29.2\n- node 24.15.0\n- Windows 11 ARM64 (cross-platform status unverified, but the bug is in package-manager metadata handling — should reproduce everywhere)\n\n## Related\n\n- [#196](https://github.com/antfu-collective/taze/issues/196) (closed, no fix linked) — different error message (`Cannot convert undefined or null to object`), but same shape: regression after 19.1.1, write-mode crash, undefined property access. May be the same underlying bug surfacing at a different access site.\n- [#170](https://github.com/antfu-collective/taze/issues/170) (closed) — same family of write-path crashes on undefined property access.\n",
+        "reactions": {
+          "url": "https://api.github.com/repos/antfu-collective/taze/issues/260/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/antfu-collective/taze/issues/260/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:04:39Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11882377810",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "repository_id": 281586897,
+      "push_id": 34172994749,
+      "ref": "refs/heads/main",
+      "head": "53b8085391da28bc49f145d4eed1a0cc0cc45a66",
+      "before": "ddd7d30de7c96a5e379d93e93e275f6d107faa4a"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:04:38Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11882360825",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "repository_id": 281586897,
+      "push_id": 34172977674,
+      "ref": "refs/heads/main",
+      "head": "ddd7d30de7c96a5e379d93e93e275f6d107faa4a",
+      "before": "a7e723052c318c1d728a6feeb02089eca8695fb6"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:03:59Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "9486945965",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/antfu-collective/taze/issues/254",
+        "repository_url": "https://api.github.com/repos/antfu-collective/taze",
+        "labels_url": "https://api.github.com/repos/antfu-collective/taze/issues/254/labels{/name}",
+        "comments_url": "https://api.github.com/repos/antfu-collective/taze/issues/254/comments",
+        "events_url": "https://api.github.com/repos/antfu-collective/taze/issues/254/events",
+        "html_url": "https://github.com/antfu-collective/taze/issues/254",
+        "id": 4200437319,
+        "node_id": "I_kwDOEMis0c76XZZH",
+        "number": 254,
+        "title": "Node.js v20 incompatibility",
+        "user": {
+          "login": "daiyam",
+          "id": 587742,
+          "node_id": "MDQ6VXNlcjU4Nzc0Mg==",
+          "avatar_url": "https://avatars.githubusercontent.com/u/587742?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/daiyam",
+          "html_url": "https://github.com/daiyam",
+          "followers_url": "https://api.github.com/users/daiyam/followers",
+          "following_url": "https://api.github.com/users/daiyam/following{/other_user}",
+          "gists_url": "https://api.github.com/users/daiyam/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/daiyam/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/daiyam/subscriptions",
+          "organizations_url": "https://api.github.com/users/daiyam/orgs",
+          "repos_url": "https://api.github.com/users/daiyam/repos",
+          "events_url": "https://api.github.com/users/daiyam/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/daiyam/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-04-03T12:54:46Z",
+        "updated_at": "2026-05-15T02:03:59Z",
+        "closed_at": "2026-05-15T02:03:59Z",
+        "assignee": null,
+        "issue_field_values": [],
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Describe the bug\n\n`taze` isn't compatible with Node.js v20 due to `TypeError: Array.fromAsync is not a function`\n\n### Reproduction\n\n`npx taze` under Node.js v20\n\n### System Info\n\n```Shell\nSystem:\n    OS: macOS 15.7.4\n    CPU: (10) arm64 Apple M4\n    Memory: 156.11 MB / 16.00 GB\n    Shell: 5.9 - /bin/zsh\n  Binaries:\n    Node: 20.20.0 - /Users/baptiste/.nvm/versions/node/v20.20.0/bin/node\n    npm: 10.8.2 - /Users/baptiste/.nvm/versions/node/v20.20.0/bin/npm\n```\n\n### Used Package Manager\n\nnpm\n\n### Validations\n\n- [x] Follow our [Code of Conduct](https://github.com/antfu/.github/blob/main/CODE_OF_CONDUCT.md)\n- [x] Read the [Contributing Guide](https://github.com/antfu/contribute).\n- [x] Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.\n- [x] Check that this is a concrete bug. For Q&A, please open a GitHub Discussion instead.\n- [x] The provided reproduction is a [minimal reproducible](https://stackoverflow.com/help/minimal-reproducible-example) of the bug.\n\n### Contributions\n\n- [x] I am willing to submit a PR to fix this issue\n- [ ] I am willing to submit a PR with failing tests (actually just go ahead and do it, thanks!)",
+        "reactions": {
+          "url": "https://api.github.com/repos/antfu-collective/taze/issues/254/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/antfu-collective/taze/issues/254/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:04:00Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11882352255",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "repository_id": 281586897,
+      "push_id": 34172969186,
+      "ref": "refs/heads/main",
+      "head": "a7e723052c318c1d728a6feeb02089eca8695fb6",
+      "before": "9c2f74f7c08abf341b2f5fca96336206339ed786"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:03:39Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "9486929903",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 18,
+      "pull_request": {
+        "url": "https://api.github.com/repos/devframes/devframe/pulls/18",
+        "id": 3686805773,
+        "number": 18,
+        "head": {
+          "ref": "antfu/dubai",
+          "sha": "198976df1ca1b440ce383a2a27a2378542f8080c",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "9da23ceced3f7ec2a4e372996541d53a4147c3bc",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:03:16Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11882334819",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "ref": "antfu/dubai",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/dubai",
+      "master_branch": "main",
+      "description": "Framework-neutral foundation for building generic DevTools.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:03:00Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11882332350",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "repository_id": 281586897,
+      "push_id": 34172949286,
+      "ref": "refs/heads/main",
+      "head": "9c2f74f7c08abf341b2f5fca96336206339ed786",
+      "before": "cc8279b2b7ac7738b0d8a7a89a1c42a37d091f88"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:02:54Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11882322888",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "repository_id": 281586897,
+      "push_id": 34172939759,
+      "ref": "refs/heads/main",
+      "head": "cc8279b2b7ac7738b0d8a7a89a1c42a37d091f88",
+      "before": "799e351e566dc26a80d32eee42809a104c36c57b"
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:02:33Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "9486913331",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 310226997,
+      "name": "antfu-collective/ni",
+      "url": "https://api.github.com/repos/antfu-collective/ni"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/antfu-collective/ni/issues/338",
+        "repository_url": "https://api.github.com/repos/antfu-collective/ni",
+        "labels_url": "https://api.github.com/repos/antfu-collective/ni/issues/338/labels{/name}",
+        "comments_url": "https://api.github.com/repos/antfu-collective/ni/issues/338/comments",
+        "events_url": "https://api.github.com/repos/antfu-collective/ni/issues/338/events",
+        "html_url": "https://github.com/antfu-collective/ni/issues/338",
+        "id": 4448474563,
+        "node_id": "I_kwDOEn2wNc8AAAABCSZVww",
+        "number": 338,
+        "title": "maturityPeriod not respected with stable-only expectation (latest bypasses filtered versions; newest includes prereleases)",
+        "user": {
+          "login": "pnodet",
+          "id": 5941125,
+          "node_id": "MDQ6VXNlcjU5NDExMjU=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/5941125?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/pnodet",
+          "html_url": "https://github.com/pnodet",
+          "followers_url": "https://api.github.com/users/pnodet/followers",
+          "following_url": "https://api.github.com/users/pnodet/following{/other_user}",
+          "gists_url": "https://api.github.com/users/pnodet/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/pnodet/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/pnodet/subscriptions",
+          "organizations_url": "https://api.github.com/users/pnodet/orgs",
+          "repos_url": "https://api.github.com/users/pnodet/repos",
+          "events_url": "https://api.github.com/users/pnodet/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/pnodet/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-05-14T18:55:21Z",
+        "updated_at": "2026-05-15T02:02:33Z",
+        "closed_at": "2026-05-15T02:02:33Z",
+        "assignee": null,
+        "issue_field_values": [],
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "Hi! Thanks for taze — super useful.\nI’m seeing behavior that makes it hard to get “latest stable, but only if older than N days”.\n\n### What I expect\nGiven:\n```ts\nexport default defineConfig({\n  mode: 'latest',\n  maturityPeriod: 2,\n})\n```\nI expect taze to avoid upgrading to versions published less than 2 days ago.\n\n### What happens\n- mode: 'newest' respects maturity filtering, but includes prereleases (-dev, -beta, -canary, etc.), which is not desired.\n- mode: 'latest' is stable-only in intent, but appears to still select too-recent versions in some cases (as if maturityPeriod were bypassed).\n\n### Repro context\nExample outcomes with mode: 'newest' + maturityPeriod: 2 show prerelease targets like:\n- 7.9.0-dev.4\n- 16.3.0-canary.19\n- 4.5.0-canary...\n\nSo newest is not suitable for stable-only workflows.\n\n### Suspected root cause\nIn `src/utils/versions.ts` (`getMaxSatisfying`), `tags.latest` is used as an initial candidate for range modes, but that candidate does not appear to be validated against the already maturity-filtered versions list.\n\nSo even after maturity filtering, `tags.latest` can still be selected if it satisfies semver range.\n\n### Suggested behavior\nFor the “stable + maturity” use case, one of these would help:\n1. Ensure mode: 'latest' only selects `tags.latest` if it is present in the filtered version set.\n2. Or add a dedicated mode for “latest stable that also satisfies maturityPeriod”.\n\nHappy to test a fix if helpful.",
+        "reactions": {
+          "url": "https://api.github.com/repos/antfu-collective/ni/issues/338/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/antfu-collective/ni/issues/338/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:02:33Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "9486868790",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/vitejs/devtools/issues/348",
+        "repository_url": "https://api.github.com/repos/vitejs/devtools",
+        "labels_url": "https://api.github.com/repos/vitejs/devtools/issues/348/labels{/name}",
+        "comments_url": "https://api.github.com/repos/vitejs/devtools/issues/348/comments",
+        "events_url": "https://api.github.com/repos/vitejs/devtools/issues/348/events",
+        "html_url": "https://github.com/vitejs/devtools/issues/348",
+        "id": 4449913783,
+        "node_id": "I_kwDOOXJp_s8AAAABCTxLtw",
+        "number": 348,
+        "title": "The injection script is attempting to use fileURLToPath from the client",
+        "user": {
+          "login": "dr-iroh",
+          "id": 86598354,
+          "node_id": "MDQ6VXNlcjg2NTk4MzU0",
+          "avatar_url": "https://avatars.githubusercontent.com/u/86598354?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/dr-iroh",
+          "html_url": "https://github.com/dr-iroh",
+          "followers_url": "https://api.github.com/users/dr-iroh/followers",
+          "following_url": "https://api.github.com/users/dr-iroh/following{/other_user}",
+          "gists_url": "https://api.github.com/users/dr-iroh/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/dr-iroh/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/dr-iroh/subscriptions",
+          "organizations_url": "https://api.github.com/users/dr-iroh/orgs",
+          "repos_url": "https://api.github.com/users/dr-iroh/repos",
+          "events_url": "https://api.github.com/users/dr-iroh/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/dr-iroh/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 8433426524,
+            "node_id": "LA_kwDOOXJp_s8AAAAB9qvgXA",
+            "url": "https://api.github.com/repos/vitejs/devtools/labels/pending%20triage",
+            "name": "pending triage",
+            "color": "B3C4DD",
+            "default": false,
+            "description": ""
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2026-05-14T22:53:12Z",
+        "updated_at": "2026-05-15T05:15:08Z",
+        "closed_at": "2026-05-15T05:15:08Z",
+        "assignee": null,
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Describe the bug\n\nI'm using @vitejs/devtools@v0.1.23 and manually injecting @vitejs/devtools/client/inject on the client side, and I'm getting this error. My app is SSR-based.\n\n> DockStandalone-Y7CEWFPN-BDo6WdN9.js?v=09397d90:301 Uncaught (in promise) TypeError: (0 , import_browser_external_node_url.fileURLToPath) is not a function\n    at DockStandalone-Y7CEWFPN-BDo6WdN9.js?v=09397d90:301:66\n\n<img width=\"1249\" height=\"127\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/6b749f21-064d-4367-ac86-6fcf6e0e96d5\" />\n\n\nvite.config.ts\n\n```js\nexport default defineConfig({\n  plugins: [\n    vue(),\n    nitro(),\n    DevTools()\n  ]\n});\n```\n\n\nmain.ts\n\n```js\nif (import.meta.hot) {\n  import('@vitejs/devtools/client/inject');\n}\n```\n\n### Reproduction\n\nShown above\n\n### System Info\n\n```Shell\nSystem:\n    OS: Linux 6.11 Ubuntu 24.04.4 LTS 24.04.4 LTS (Noble Numbat)\n    CPU: (4) x64 Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz\n    Memory: 3.03 GB / 7.68 GB\n    Container: Yes\n    Shell: 5.9 - /usr/bin/zsh\n  Binaries:\n    Node: 24.15.0 - /home/iroh/.nvm/versions/node/v24.15.0/bin/node\n    npm: 11.12.1 - /home/iroh/.nvm/versions/node/v24.15.0/bin/npm\n    bun: 1.3.14 - /home/iroh/.bun/bin/bun\n  Browsers:\n    Chrome: 148.0.7778.167\n    Firefox: 150.0.3\n    Firefox Developer Edition: 150.0.3\n```\n\n### Used Package Manager\n\nbun\n\n### Validations\n\n- [x] Follow our [Code of Conduct](https://github.com/antfu/.github/blob/main/CODE_OF_CONDUCT.md)\n- [x] Read the [Contributing Guide](https://github.com/antfu/contribute).\n- [x] Check that there isn't already an issue that reports the same bug to avoid creating a duplicate.\n- [x] Check that this is a concrete bug. For Q&A, please open a GitHub Discussion instead.\n- [x] The provided reproduction is a [minimal reproducible](https://stackoverflow.com/help/minimal-reproducible-example) of the bug.",
+        "reactions": {
+          "url": "https://api.github.com/repos/vitejs/devtools/issues/348/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/vitejs/devtools/issues/348/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/vitejs/devtools/issues/comments/4456232802",
+        "html_url": "https://github.com/vitejs/devtools/issues/348#issuecomment-4456232802",
+        "issue_url": "https://api.github.com/repos/vitejs/devtools/issues/348",
+        "id": 4456232802,
+        "node_id": "IC_kwDOOXJp_s8AAAABCZy3Yg",
+        "user": {
+          "login": "antfu",
+          "id": 11247099,
+          "node_id": "MDQ6VXNlcjExMjQ3MDk5",
+          "avatar_url": "https://avatars.githubusercontent.com/u/11247099?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/antfu",
+          "html_url": "https://github.com/antfu",
+          "followers_url": "https://api.github.com/users/antfu/followers",
+          "following_url": "https://api.github.com/users/antfu/following{/other_user}",
+          "gists_url": "https://api.github.com/users/antfu/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/antfu/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/antfu/subscriptions",
+          "organizations_url": "https://api.github.com/users/antfu/orgs",
+          "repos_url": "https://api.github.com/users/antfu/repos",
+          "events_url": "https://api.github.com/users/antfu/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/antfu/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-05-15T02:00:35Z",
+        "updated_at": "2026-05-15T02:00:35Z",
+        "body": "This should be fixed by #347",
+        "pin": null,
+        "reactions": {
+          "url": "https://api.github.com/repos/vitejs/devtools/issues/comments/4456232802/reactions",
+          "total_count": 1,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 1,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T02:00:35Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11882241037",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34172857666,
+      "ref": "refs/heads/main",
+      "head": "d8efd10912bc3a961216b52245f4f150e2536586",
+      "before": "308599725495122d61598abd70b910aeb9456e35"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:59:52Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11882215506",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1034719863,
+      "name": "pnodet/taze",
+      "url": "https://api.github.com/repos/pnodet/taze"
+    },
+    "payload": {
+      "repository_id": 1034719863,
+      "push_id": 34172832199,
+      "ref": "refs/heads/pnodet-3",
+      "head": "e7d7cee344df7b7495caf6f78e420c028a650242",
+      "before": "c26fb187c94615f2b1441c0564c339d36ab5e423"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:58:49Z"
+  },
+  {
+    "id": "11882160755",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34172777513,
+      "ref": "refs/heads/main",
+      "head": "9da23ceced3f7ec2a4e372996541d53a4147c3bc",
+      "before": "17fbcfdd5b1d2f6fd1e120a669ffda54dfd49152"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:56:35Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11882026352",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "ref": "antfu/update-docs-skills",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/update-docs-skills",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:51:11Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11882025314",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34172641974,
+      "ref": "refs/heads/main",
+      "head": "17fbcfdd5b1d2f6fd1e120a669ffda54dfd49152",
+      "before": "5af922dd31cb519cb66d376913bbed9018ccaac2"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:51:09Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "9486676148",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 16,
+      "pull_request": {
+        "url": "https://api.github.com/repos/devframes/devframe/pulls/16",
+        "id": 3686670383,
+        "number": 16,
+        "head": {
+          "ref": "antfu/update-docs-skills",
+          "sha": "7b7e4efc97fcfd82f0b71d9a2f544c1275056d2e",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "5af922dd31cb519cb66d376913bbed9018ccaac2",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:51:08Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11881991733",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "repository_id": 281586897,
+      "push_id": 34172608353,
+      "ref": "refs/heads/main",
+      "head": "799e351e566dc26a80d32eee42809a104c36c57b",
+      "before": "96e7af37c15cdee7334071222b16d9e926fd5175"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:49:51Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "9486647220",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 281586897,
+      "name": "antfu-collective/taze",
+      "url": "https://api.github.com/repos/antfu-collective/taze"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/antfu-collective/taze/issues/262",
+        "repository_url": "https://api.github.com/repos/antfu-collective/taze",
+        "labels_url": "https://api.github.com/repos/antfu-collective/taze/issues/262/labels{/name}",
+        "comments_url": "https://api.github.com/repos/antfu-collective/taze/issues/262/comments",
+        "events_url": "https://api.github.com/repos/antfu-collective/taze/issues/262/events",
+        "html_url": "https://github.com/antfu-collective/taze/issues/262",
+        "id": 4359026851,
+        "node_id": "I_kwDOEMis0c8AAAABA9F4ow",
+        "number": 262,
+        "title": "--maturity-period ignored for `latest` and `next` modes",
+        "user": {
+          "login": "Jerc92",
+          "id": 8441176,
+          "node_id": "MDQ6VXNlcjg0NDExNzY=",
+          "avatar_url": "https://avatars.githubusercontent.com/u/8441176?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Jerc92",
+          "html_url": "https://github.com/Jerc92",
+          "followers_url": "https://api.github.com/users/Jerc92/followers",
+          "following_url": "https://api.github.com/users/Jerc92/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Jerc92/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Jerc92/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Jerc92/subscriptions",
+          "organizations_url": "https://api.github.com/users/Jerc92/orgs",
+          "repos_url": "https://api.github.com/users/Jerc92/repos",
+          "events_url": "https://api.github.com/users/Jerc92/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Jerc92/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-04-30T14:48:05Z",
+        "updated_at": "2026-05-15T01:49:51Z",
+        "closed_at": "2026-05-15T01:49:51Z",
+        "assignee": null,
+        "issue_field_values": [],
+        "type": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "## Bug\n\n`--maturity-period N` does not filter out versions younger than N days when `mode === \"latest\"` (or `next`). It correctly filters for `default`, `major`, `minor`, `patch`, and `newest` modes.\n\n## Repro\n\n```bash\n# Package with a version released < 7 days ago\ntaze latest --maturity-period 7 --include eslint-plugin-storybook\n```\n\nOutput (today 2026-04-30, eslint-plugin-storybook 10.3.6 released 2026-04-29 = 1 day old):\n\n```\neslint-plugin-storybook    ~2mo  ^10.2.17  →  ^10.3.6  ~1d\n```\n\nExpected: 10.3.6 filtered out, fallback to 10.3.5 (released 2026-04-07 = ~3 weeks old).\n\n## Root cause\n\n`getMaxSatisfying()` in `src/utils/versions.ts` (or compiled `dist/types-*.mjs:4260` in v19.11.0) returns `tags.latest` directly for `mode === \"latest\"` — ignores the `versions` array which is the maturity-period-filtered list.\n\n```ts\nfunction getMaxSatisfying(versions, current, mode, tags) {\n  let version = null;\n  if (mode === \"latest\") version = tags.latest;        // <-- skips filteredVersions\n  else if (mode === \"newest\") version = versions.at(-1);\n  else if (mode === \"next\") version = tags.next;       // <-- same bug\n  else { /* iterates `versions` which IS the filtered list */ }\n}\n```\n\n`getVersionOfRange()` correctly applies `filterVersionsByMaturityPeriod()` and passes the filtered list to `getMaxSatisfying`, but the `latest`/`next` branches discard it.\n\n## Suggested fix\n\nFor `latest` / `next`, verify the dist-tag version is in `versions` (the filtered list). If not, fall back to `getMaxSatisfying(versions, current, \"newest\", tags)` or pick the highest matching version from the filtered list.\n\n```ts\nif (mode === \"latest\") {\n  version = versions.includes(tags.latest) ? tags.latest : null\n}\n```\n\n## Version\n\n- taze: 19.11.0\n- node: 25.9.0\n- platform: darwin-arm64",
+        "reactions": {
+          "url": "https://api.github.com/repos/antfu-collective/taze/issues/262/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/antfu-collective/taze/issues/262/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:49:51Z",
+    "org": {
+      "id": 167634566,
+      "login": "antfu-collective",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/antfu-collective",
+      "avatar_url": "https://avatars.githubusercontent.com/u/167634566?"
+    }
+  },
+  {
+    "id": "11881920680",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34172537219,
+      "ref": "refs/heads/antfu/update-docs-skills",
+      "head": "7b7e4efc97fcfd82f0b71d9a2f544c1275056d2e",
+      "before": "16dd47771f67effd1c4629d94b2ef8aff8fa5b4c"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:46:58Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11881570407",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34172186815,
+      "ref": "refs/heads/antfu/update-docs-skills",
+      "head": "16dd47771f67effd1c4629d94b2ef8aff8fa5b4c",
+      "before": "28035ca0058c4a9b1287beacb07f31d77c2530bc"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:32:21Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11881458909",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34172075228,
+      "ref": "refs/heads/antfu/update-docs-skills",
+      "head": "28035ca0058c4a9b1287beacb07f31d77c2530bc",
+      "before": "8ee0d048f56809041f21fcc5ea3fad38e0f468c7"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:27:41Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11881392743",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34172009073,
+      "ref": "refs/heads/main",
+      "head": "5af922dd31cb519cb66d376913bbed9018ccaac2",
+      "before": "1ce81d897f668a346b98843ff5c025e5244c441e"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:24:51Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "9486107812",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 17,
+      "pull_request": {
+        "url": "https://api.github.com/repos/devframes/devframe/pulls/17",
+        "id": 3686675770,
+        "number": 17,
+        "head": {
+          "ref": "antfu/split-tsdown-config",
+          "sha": "ae78f0541e7fc0015002ab91a1b8994cc7092ab2",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "1ce81d897f668a346b98843ff5c025e5244c441e",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:24:49Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "9486090210",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 941807029,
+      "name": "antfu/vite-plugin-vue-tracer",
+      "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 5,
+      "pull_request": {
+        "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/pulls/5",
+        "id": 3583820130,
+        "number": 5,
+        "head": {
+          "ref": "fix/vite-8",
+          "sha": "3fd87426bf6b038151b66308721abb0b82c4e057",
+          "repo": {
+            "id": 954792170,
+            "url": "https://api.github.com/repos/danielroe/vite-plugin-vue-tracer",
+            "name": "vite-plugin-vue-tracer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "e7db1952e912af71401595800e30a6869c338207",
+          "repo": {
+            "id": 941807029,
+            "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer",
+            "name": "vite-plugin-vue-tracer"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:21:25Z"
+  },
+  {
+    "id": "11881328948",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 941807029,
+      "name": "antfu/vite-plugin-vue-tracer",
+      "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer"
+    },
+    "payload": {
+      "repository_id": 941807029,
+      "push_id": 34171945172,
+      "ref": "refs/heads/main",
+      "head": "e72d77fcc9bf6c3a0ec4cadbefef2bd21e5717ce",
+      "before": "c5d433830bbc7b4f2f5d25a1e08c2ab2b0c984b5"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:22:05Z"
+  },
+  {
+    "id": "9486040055",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 941807029,
+      "name": "antfu/vite-plugin-vue-tracer",
+      "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/5",
+        "repository_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer",
+        "labels_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/5/labels{/name}",
+        "comments_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/5/comments",
+        "events_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/5/events",
+        "html_url": "https://github.com/antfu/vite-plugin-vue-tracer/pull/5",
+        "id": 4328535523,
+        "node_id": "PR_kwDOOCLVtc7VnMFi",
+        "number": 5,
+        "title": "chore(deps): bump peerDep to accept vite 8",
+        "user": {
+          "login": "danielroe",
+          "id": 28706372,
+          "node_id": "MDQ6VXNlcjI4NzA2Mzcy",
+          "avatar_url": "https://avatars.githubusercontent.com/u/28706372?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/danielroe",
+          "html_url": "https://github.com/danielroe",
+          "followers_url": "https://api.github.com/users/danielroe/followers",
+          "following_url": "https://api.github.com/users/danielroe/following{/other_user}",
+          "gists_url": "https://api.github.com/users/danielroe/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/danielroe/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/danielroe/subscriptions",
+          "organizations_url": "https://api.github.com/users/danielroe/orgs",
+          "repos_url": "https://api.github.com/users/danielroe/repos",
+          "events_url": "https://api.github.com/users/danielroe/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/danielroe/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 1,
+        "created_at": "2026-04-25T15:35:57Z",
+        "updated_at": "2026-05-15T01:24:00Z",
+        "closed_at": "2026-05-15T01:24:00Z",
+        "assignee": null,
+        "active_lock_reason": null,
+        "draft": false,
+        "pull_request": {
+          "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/pulls/5",
+          "html_url": "https://github.com/antfu/vite-plugin-vue-tracer/pull/5",
+          "diff_url": "https://github.com/antfu/vite-plugin-vue-tracer/pull/5.diff",
+          "patch_url": "https://github.com/antfu/vite-plugin-vue-tracer/pull/5.patch",
+          "merged_at": null
+        },
+        "body": "noticed when testing `nuxt-nightly@5x`",
+        "reactions": {
+          "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/5/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/5/timeline",
+        "performed_via_github_app": null,
+        "state_reason": null
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/comments/4456046209",
+        "html_url": "https://github.com/antfu/vite-plugin-vue-tracer/pull/5#issuecomment-4456046209",
+        "issue_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/5",
+        "id": 4456046209,
+        "node_id": "IC_kwDOOCLVtc8AAAABCZnegQ",
+        "user": {
+          "login": "antfu",
+          "id": 11247099,
+          "node_id": "MDQ6VXNlcjExMjQ3MDk5",
+          "avatar_url": "https://avatars.githubusercontent.com/u/11247099?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/antfu",
+          "html_url": "https://github.com/antfu",
+          "followers_url": "https://api.github.com/users/antfu/followers",
+          "following_url": "https://api.github.com/users/antfu/following{/other_user}",
+          "gists_url": "https://api.github.com/users/antfu/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/antfu/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/antfu/subscriptions",
+          "organizations_url": "https://api.github.com/users/antfu/orgs",
+          "repos_url": "https://api.github.com/users/antfu/repos",
+          "events_url": "https://api.github.com/users/antfu/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/antfu/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "created_at": "2026-05-15T01:21:25Z",
+        "updated_at": "2026-05-15T01:21:25Z",
+        "body": "Sorry I didn't notice while I was creating another PR. Thanks!",
+        "reactions": {
+          "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/comments/4456046209/reactions",
+          "total_count": 0,
+          "+1": 0,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "performed_via_github_app": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:21:25Z"
+  },
+  {
+    "id": "9486022256",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 941807029,
+      "name": "antfu/vite-plugin-vue-tracer",
+      "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/4",
+        "repository_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer",
+        "labels_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/4/labels{/name}",
+        "comments_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/4/comments",
+        "events_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/4/events",
+        "html_url": "https://github.com/antfu/vite-plugin-vue-tracer/issues/4",
+        "id": 4109283807,
+        "node_id": "I_kwDOOCLVtc707rHf",
+        "number": 4,
+        "title": "Add vite 8 support",
+        "user": {
+          "login": "erwanjugand",
+          "id": 47392755,
+          "node_id": "MDQ6VXNlcjQ3MzkyNzU1",
+          "avatar_url": "https://avatars.githubusercontent.com/u/47392755?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/erwanjugand",
+          "html_url": "https://github.com/erwanjugand",
+          "followers_url": "https://api.github.com/users/erwanjugand/followers",
+          "following_url": "https://api.github.com/users/erwanjugand/following{/other_user}",
+          "gists_url": "https://api.github.com/users/erwanjugand/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/erwanjugand/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/erwanjugand/subscriptions",
+          "organizations_url": "https://api.github.com/users/erwanjugand/orgs",
+          "repos_url": "https://api.github.com/users/erwanjugand/repos",
+          "events_url": "https://api.github.com/users/erwanjugand/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/erwanjugand/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "id": 8232384972,
+            "node_id": "LA_kwDOOCLVtc8AAAAB6rA5zA",
+            "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/labels/enhancement",
+            "name": "enhancement",
+            "color": "a2eeef",
+            "default": true,
+            "description": "New feature or request"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignees": [],
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2026-03-20T17:57:47Z",
+        "updated_at": "2026-05-15T01:20:32Z",
+        "closed_at": "2026-05-15T01:20:32Z",
+        "assignee": null,
+        "active_lock_reason": null,
+        "sub_issues_summary": {
+          "total": 0,
+          "completed": 0,
+          "percent_completed": 0
+        },
+        "issue_dependencies_summary": {
+          "blocked_by": 0,
+          "total_blocked_by": 0,
+          "blocking": 0,
+          "total_blocking": 0
+        },
+        "body": "### Clear and concise description of the problem\n\nVite 8 officially not supported\n\n### Suggested solution\n\nMake the plugin compatible with Vite 8 :)\n\n### Alternative\n\n_No response_\n\n### Additional context\n\n_No response_\n\n### Validations\n\n- [x] Follow our [Code of Conduct](https://github.com/antfu/.github/blob/main/CODE_OF_CONDUCT.md)\n- [x] Read the [Contributing Guide](https://github.com/antfu/contribute).\n- [x] Check that there isn't already an issue that request the same feature to avoid creating a duplicate.",
+        "reactions": {
+          "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/4/reactions",
+          "total_count": 1,
+          "+1": 1,
+          "-1": 0,
+          "laugh": 0,
+          "hooray": 0,
+          "confused": 0,
+          "heart": 0,
+          "rocket": 0,
+          "eyes": 0
+        },
+        "timeline_url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/issues/4/timeline",
+        "performed_via_github_app": null,
+        "state_reason": "completed",
+        "pinned_comment": null
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:20:34Z"
+  },
+  {
+    "id": "9486020934",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 17,
+      "pull_request": {
+        "url": "https://api.github.com/repos/devframes/devframe/pulls/17",
+        "id": 3686675770,
+        "number": 17,
+        "head": {
+          "ref": "antfu/split-tsdown-config",
+          "sha": "ae78f0541e7fc0015002ab91a1b8994cc7092ab2",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "1ce81d897f668a346b98843ff5c025e5244c441e",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:20:29Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "9486018506",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 941807029,
+      "name": "antfu/vite-plugin-vue-tracer",
+      "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 7,
+      "pull_request": {
+        "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/pulls/7",
+        "id": 3686670522,
+        "number": 7,
+        "head": {
+          "ref": "antfu/london",
+          "sha": "287acc57c4aa52f5122a9ad8d2168bfd9cf1ae11",
+          "repo": {
+            "id": 941807029,
+            "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer",
+            "name": "vite-plugin-vue-tracer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "e7db1952e912af71401595800e30a6869c338207",
+          "repo": {
+            "id": 941807029,
+            "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer",
+            "name": "vite-plugin-vue-tracer"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:20:19Z"
+  },
+  {
+    "id": "11881288562",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 941807029,
+      "name": "antfu/vite-plugin-vue-tracer",
+      "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer"
+    },
+    "payload": {
+      "repository_id": 941807029,
+      "push_id": 34171904847,
+      "ref": "refs/heads/main",
+      "head": "c5d433830bbc7b4f2f5d25a1e08c2ab2b0c984b5",
+      "before": "e7db1952e912af71401595800e30a6869c338207"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:20:20Z"
+  },
+  {
+    "id": "11881283863",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "ref": "antfu/split-tsdown-config",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/split-tsdown-config",
+      "master_branch": "main",
+      "description": "Framework-neutral foundation for building generic DevTools.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:20:09Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "9485982381",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 941807029,
+      "name": "antfu/vite-plugin-vue-tracer",
+      "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 7,
+      "pull_request": {
+        "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer/pulls/7",
+        "id": 3686670522,
+        "number": 7,
+        "head": {
+          "ref": "antfu/london",
+          "sha": "287acc57c4aa52f5122a9ad8d2168bfd9cf1ae11",
+          "repo": {
+            "id": 941807029,
+            "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer",
+            "name": "vite-plugin-vue-tracer"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "e7db1952e912af71401595800e30a6869c338207",
+          "repo": {
+            "id": 941807029,
+            "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer",
+            "name": "vite-plugin-vue-tracer"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:18:33Z"
+  },
+  {
+    "id": "9485980968",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 16,
+      "pull_request": {
+        "url": "https://api.github.com/repos/devframes/devframe/pulls/16",
+        "id": 3686670383,
+        "number": 16,
+        "head": {
+          "ref": "antfu/update-docs-skills",
+          "sha": "7b7e4efc97fcfd82f0b71d9a2f544c1275056d2e",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "5af922dd31cb519cb66d376913bbed9018ccaac2",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:18:29Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11881242509",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 941807029,
+      "name": "antfu/vite-plugin-vue-tracer",
+      "url": "https://api.github.com/repos/antfu/vite-plugin-vue-tracer"
+    },
+    "payload": {
+      "ref": "antfu/london",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/london",
+      "master_branch": "main",
+      "description": "Tracer for the source code of elements and vdoms in Vue SFC.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:18:23Z"
+  },
+  {
+    "id": "11881238422",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "ref": "antfu/update-docs-skills",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/update-docs-skills",
+      "master_branch": "main",
+      "description": "Framework-neutral foundation for building generic DevTools.",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:18:13Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11880810854",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "ref": "antfu/moscow",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/moscow",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:00:35Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11880810088",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34171426061,
+      "ref": "refs/heads/main",
+      "head": "308599725495122d61598abd70b910aeb9456e35",
+      "before": "36d865e4a17cae766aa0517f00641e0ac4201a5c"
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:00:33Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "9485591828",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 347,
+      "pull_request": {
+        "url": "https://api.github.com/repos/vitejs/devtools/pulls/347",
+        "id": 3682991865,
+        "number": 347,
+        "head": {
+          "ref": "antfu/moscow",
+          "sha": "e3159d2c8938a9deab0f6f7baf46c54b487b3292",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "36d865e4a17cae766aa0517f00641e0ac4201a5c",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-15T01:00:32Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11880677740",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34171293639,
+      "ref": "refs/heads/antfu/moscow",
+      "head": "e3159d2c8938a9deab0f6f7baf46c54b487b3292",
+      "before": "209e2ffc92e4269980a3ca33fb111246b3d449f3"
+    },
+    "public": true,
+    "created_at": "2026-05-15T00:55:11Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "9460878566",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 347,
+      "pull_request": {
+        "url": "https://api.github.com/repos/vitejs/devtools/pulls/347",
+        "id": 3682991865,
+        "number": 347,
+        "head": {
+          "ref": "antfu/moscow",
+          "sha": "e3159d2c8938a9deab0f6f7baf46c54b487b3292",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "36d865e4a17cae766aa0517f00641e0ac4201a5c",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-14T12:55:47Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11853692885",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "ref": "antfu/moscow",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/moscow",
+      "master_branch": "main",
+      "description": "DevTools for Vite (Rolldown). ",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-14T12:55:28Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11849908395",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34140569804,
+      "ref": "refs/heads/main",
+      "head": "1ce81d897f668a346b98843ff5c025e5244c441e",
+      "before": "2458e6e5fe79bff0e6a9736fe63fc4059b2e68e5"
+    },
+    "public": true,
+    "created_at": "2026-05-14T11:18:22Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "9457534054",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "review": {
+        "id": 4289475226,
+        "node_id": "PRR_kwDOSWqXks7_rDKa",
+        "user": {
+          "login": "antfu",
+          "id": 11247099,
+          "node_id": "MDQ6VXNlcjExMjQ3MDk5",
+          "avatar_url": "https://avatars.githubusercontent.com/u/11247099?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/antfu",
+          "html_url": "https://github.com/antfu",
+          "followers_url": "https://api.github.com/users/antfu/followers",
+          "following_url": "https://api.github.com/users/antfu/following{/other_user}",
+          "gists_url": "https://api.github.com/users/antfu/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/antfu/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/antfu/subscriptions",
+          "organizations_url": "https://api.github.com/users/antfu/orgs",
+          "repos_url": "https://api.github.com/users/antfu/repos",
+          "events_url": "https://api.github.com/users/antfu/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/antfu/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "d93f9e7d74806530de558ce4016918c9d4c2c9f2",
+        "state": "approved",
+        "html_url": "https://github.com/devframes/devframe/pull/13#pullrequestreview-4289475226",
+        "pull_request_url": "https://api.github.com/repos/devframes/devframe/pulls/13",
+        "_links": {
+          "html": {
+            "href": "https://github.com/devframes/devframe/pull/13#pullrequestreview-4289475226"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/devframes/devframe/pulls/13"
+          }
+        },
+        "submitted_at": "2026-05-14T11:18:10Z",
+        "updated_at": "2026-05-14T11:18:10Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/devframes/devframe/pulls/13",
+        "id": 3678241223,
+        "number": 13,
+        "head": {
+          "ref": "fix-nuxt-module-types",
+          "sha": "d93f9e7d74806530de558ce4016918c9d4c2c9f2",
+          "repo": {
+            "id": 1236567773,
+            "url": "https://api.github.com/repos/userquin/devframe",
+            "name": "devframe"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "97bc45b09ff0c2abb0ae6b673db97e78f44a2d18",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-05-14T11:18:11Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11849087113",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34139748581,
+      "ref": "refs/heads/main",
+      "head": "36d865e4a17cae766aa0517f00641e0ac4201a5c",
+      "before": "3b8a18f3bedbe28868ff6b80b7f6458b7388d5f7"
+    },
+    "public": true,
+    "created_at": "2026-05-14T10:56:54Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11849054433",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "ref": "antfu/migrate-h3-v2",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/migrate-h3-v2",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-14T10:56:02Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11849054242",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34139715875,
+      "ref": "refs/heads/main",
+      "head": "3b8a18f3bedbe28868ff6b80b7f6458b7388d5f7",
+      "before": "3f460d2a920f4298c969e2e180cec1e52a4ab2d3"
+    },
+    "public": true,
+    "created_at": "2026-05-14T10:56:02Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "9456801706",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 346,
+      "pull_request": {
+        "url": "https://api.github.com/repos/vitejs/devtools/pulls/346",
+        "id": 3682356523,
+        "number": 346,
+        "head": {
+          "ref": "antfu/migrate-h3-v2",
+          "sha": "86f1e59bc49db75d6b717b9231f654bbc784f27c",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "3f460d2a920f4298c969e2e180cec1e52a4ab2d3",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-14T10:56:00Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "9456639106",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 346,
+      "pull_request": {
+        "url": "https://api.github.com/repos/vitejs/devtools/pulls/346",
+        "id": 3682356523,
+        "number": 346,
+        "head": {
+          "ref": "antfu/migrate-h3-v2",
+          "sha": "86f1e59bc49db75d6b717b9231f654bbc784f27c",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "3f460d2a920f4298c969e2e180cec1e52a4ab2d3",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-14T10:51:35Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11848873891",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "ref": "antfu/migrate-h3-v2",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/migrate-h3-v2",
+      "master_branch": "main",
+      "description": "DevTools for Vite (Rolldown). ",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-14T10:51:12Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11843845472",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 459141315,
+      "name": "unjs/unimport",
+      "url": "https://api.github.com/repos/unjs/unimport"
+    },
+    "payload": {
+      "repository_id": 459141315,
+      "push_id": 34134510339,
+      "ref": "refs/heads/main",
+      "head": "e3c4752f0d789e7f6eea6df36abf740383f8e1cd",
+      "before": "04998190aecb5526f456822168ad02b52a98ef13"
+    },
+    "public": true,
+    "created_at": "2026-05-14T08:39:59Z",
+    "org": {
+      "id": 80154025,
+      "login": "unjs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/unjs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80154025?"
+    }
+  },
+  {
+    "id": "11843837953",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 459141315,
+      "name": "unjs/unimport",
+      "url": "https://api.github.com/repos/unjs/unimport"
+    },
+    "payload": {
+      "repository_id": 459141315,
+      "push_id": 34134502559,
+      "ref": "refs/heads/main",
+      "head": "04998190aecb5526f456822168ad02b52a98ef13",
+      "before": "2890dfd9d9eed4a619c94807f4857c1ddb8ec272"
+    },
+    "public": true,
+    "created_at": "2026-05-14T08:39:46Z",
+    "org": {
+      "id": 80154025,
+      "login": "unjs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/unjs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80154025?"
+    }
+  },
+  {
+    "id": "11843743755",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 459141315,
+      "name": "unjs/unimport",
+      "url": "https://api.github.com/repos/unjs/unimport"
+    },
+    "payload": {
+      "ref": "perf/cache-scan-dir-matchers",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/perf/cache-scan-dir-matchers",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-14T08:37:13Z",
+    "org": {
+      "id": 80154025,
+      "login": "unjs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/unjs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80154025?"
+    }
+  },
+  {
+    "id": "11843742924",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 459141315,
+      "name": "unjs/unimport",
+      "url": "https://api.github.com/repos/unjs/unimport"
+    },
+    "payload": {
+      "repository_id": 459141315,
+      "push_id": 34134407780,
+      "ref": "refs/heads/main",
+      "head": "2890dfd9d9eed4a619c94807f4857c1ddb8ec272",
+      "before": "53a96668c00f76209c2224c57d20e800091848ab"
+    },
+    "public": true,
+    "created_at": "2026-05-14T08:37:12Z",
+    "org": {
+      "id": 80154025,
+      "login": "unjs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/unjs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80154025?"
+    }
+  },
+  {
+    "id": "9451919531",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 459141315,
+      "name": "unjs/unimport",
+      "url": "https://api.github.com/repos/unjs/unimport"
+    },
+    "payload": {
+      "review": {
+        "id": 4288527056,
+        "node_id": "PRR_kwDOG13ww87_nbrQ",
+        "user": {
+          "login": "antfu",
+          "id": 11247099,
+          "node_id": "MDQ6VXNlcjExMjQ3MDk5",
+          "avatar_url": "https://avatars.githubusercontent.com/u/11247099?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/antfu",
+          "html_url": "https://github.com/antfu",
+          "followers_url": "https://api.github.com/users/antfu/followers",
+          "following_url": "https://api.github.com/users/antfu/following{/other_user}",
+          "gists_url": "https://api.github.com/users/antfu/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/antfu/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/antfu/subscriptions",
+          "organizations_url": "https://api.github.com/users/antfu/orgs",
+          "repos_url": "https://api.github.com/users/antfu/repos",
+          "events_url": "https://api.github.com/users/antfu/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/antfu/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "a0444b65a01a23755050241ddb1ca4f7fa782d19",
+        "state": "approved",
+        "html_url": "https://github.com/unjs/unimport/pull/535#pullrequestreview-4288527056",
+        "pull_request_url": "https://api.github.com/repos/unjs/unimport/pulls/535",
+        "_links": {
+          "html": {
+            "href": "https://github.com/unjs/unimport/pull/535#pullrequestreview-4288527056"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/unjs/unimport/pulls/535"
+          }
+        },
+        "submitted_at": "2026-05-14T08:37:04Z",
+        "updated_at": "2026-05-14T08:37:04Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/unjs/unimport/pulls/535",
+        "id": 3653982881,
+        "number": 535,
+        "head": {
+          "ref": "perf/cache-scan-dir-matchers",
+          "sha": "a0444b65a01a23755050241ddb1ca4f7fa782d19",
+          "repo": {
+            "id": 459141315,
+            "url": "https://api.github.com/repos/unjs/unimport",
+            "name": "unimport"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "68572cf70e86df0cfcb49931f10aa3cfdb02480b",
+          "repo": {
+            "id": 459141315,
+            "url": "https://api.github.com/repos/unjs/unimport",
+            "name": "unimport"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-05-14T08:37:06Z",
+    "org": {
+      "id": 80154025,
+      "login": "unjs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/unjs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80154025?"
+    }
+  },
+  {
+    "id": "11843735743",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 459141315,
+      "name": "unjs/unimport",
+      "url": "https://api.github.com/repos/unjs/unimport"
+    },
+    "payload": {
+      "ref": "feat/rolldown",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/feat/rolldown",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-14T08:36:59Z",
+    "org": {
+      "id": 80154025,
+      "login": "unjs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/unjs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80154025?"
+    }
+  },
+  {
+    "id": "11843734437",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 459141315,
+      "name": "unjs/unimport",
+      "url": "https://api.github.com/repos/unjs/unimport"
+    },
+    "payload": {
+      "repository_id": 459141315,
+      "push_id": 34134399259,
+      "ref": "refs/heads/main",
+      "head": "53a96668c00f76209c2224c57d20e800091848ab",
+      "before": "68572cf70e86df0cfcb49931f10aa3cfdb02480b"
+    },
+    "public": true,
+    "created_at": "2026-05-14T08:36:58Z",
+    "org": {
+      "id": 80154025,
+      "login": "unjs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/unjs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80154025?"
+    }
+  },
+  {
+    "id": "9451901099",
+    "type": "PullRequestReviewEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 459141315,
+      "name": "unjs/unimport",
+      "url": "https://api.github.com/repos/unjs/unimport"
+    },
+    "payload": {
+      "review": {
+        "id": 4288523564,
+        "node_id": "PRR_kwDOG13ww87_na0s",
+        "user": {
+          "login": "antfu",
+          "id": 11247099,
+          "node_id": "MDQ6VXNlcjExMjQ3MDk5",
+          "avatar_url": "https://avatars.githubusercontent.com/u/11247099?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/antfu",
+          "html_url": "https://github.com/antfu",
+          "followers_url": "https://api.github.com/users/antfu/followers",
+          "following_url": "https://api.github.com/users/antfu/following{/other_user}",
+          "gists_url": "https://api.github.com/users/antfu/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/antfu/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/antfu/subscriptions",
+          "organizations_url": "https://api.github.com/users/antfu/orgs",
+          "repos_url": "https://api.github.com/users/antfu/repos",
+          "events_url": "https://api.github.com/users/antfu/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/antfu/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "body": null,
+        "commit_id": "f62c1eff01b18aa9e78340b3a5c06f6121fce714",
+        "state": "approved",
+        "html_url": "https://github.com/unjs/unimport/pull/537#pullrequestreview-4288523564",
+        "pull_request_url": "https://api.github.com/repos/unjs/unimport/pulls/537",
+        "_links": {
+          "html": {
+            "href": "https://github.com/unjs/unimport/pull/537#pullrequestreview-4288523564"
+          },
+          "pull_request": {
+            "href": "https://api.github.com/repos/unjs/unimport/pulls/537"
+          }
+        },
+        "submitted_at": "2026-05-14T08:36:33Z",
+        "updated_at": "2026-05-14T08:36:33Z"
+      },
+      "pull_request": {
+        "url": "https://api.github.com/repos/unjs/unimport/pulls/537",
+        "id": 3674829268,
+        "number": 537,
+        "head": {
+          "ref": "feat/rolldown",
+          "sha": "f62c1eff01b18aa9e78340b3a5c06f6121fce714",
+          "repo": {
+            "id": 459141315,
+            "url": "https://api.github.com/repos/unjs/unimport",
+            "name": "unimport"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "68572cf70e86df0cfcb49931f10aa3cfdb02480b",
+          "repo": {
+            "id": 459141315,
+            "url": "https://api.github.com/repos/unjs/unimport",
+            "name": "unimport"
+          }
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "created_at": "2026-05-14T08:36:35Z",
+    "org": {
+      "id": 80154025,
+      "login": "unjs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/unjs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/80154025?"
+    }
+  },
+  {
+    "id": "11842162884",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "ref": "antfu/create-pr-v2",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/create-pr-v2",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-14T07:53:56Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11842162307",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34132826481,
+      "ref": "refs/heads/main",
+      "head": "3f460d2a920f4298c969e2e180cec1e52a4ab2d3",
+      "before": "0fc20b0ff8e0ed3bbe62f111b35da46044f02356"
+    },
+    "public": true,
+    "created_at": "2026-05-14T07:53:55Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "9450499523",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 344,
+      "pull_request": {
+        "url": "https://api.github.com/repos/vitejs/devtools/pulls/344",
+        "id": 3681339065,
+        "number": 344,
+        "head": {
+          "ref": "antfu/create-pr-v2",
+          "sha": "626151e26044e4ba50121e2e296a054f902b8b8a",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "0fc20b0ff8e0ed3bbe62f111b35da46044f02356",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-14T07:53:54Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "9449913281",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 344,
+      "pull_request": {
+        "url": "https://api.github.com/repos/vitejs/devtools/pulls/344",
+        "id": 3681339065,
+        "number": 344,
+        "head": {
+          "ref": "antfu/create-pr-v2",
+          "sha": "626151e26044e4ba50121e2e296a054f902b8b8a",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "0fc20b0ff8e0ed3bbe62f111b35da46044f02356",
+          "repo": {
+            "id": 963799550,
+            "url": "https://api.github.com/repos/vitejs/devtools",
+            "name": "devtools"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-14T07:36:02Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11841519538",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "ref": "antfu/create-pr-v2",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/create-pr-v2",
+      "master_branch": "main",
+      "description": "DevTools for Vite (Rolldown). ",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-14T07:35:50Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11838904534",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 963799550,
+      "name": "vitejs/devtools",
+      "url": "https://api.github.com/repos/vitejs/devtools"
+    },
+    "payload": {
+      "repository_id": 963799550,
+      "push_id": 34129570664,
+      "ref": "refs/heads/main",
+      "head": "0fc20b0ff8e0ed3bbe62f111b35da46044f02356",
+      "before": "6d24d8ad80c033961a57d45d37ab46110ebe602e"
+    },
+    "public": true,
+    "created_at": "2026-05-14T06:17:01Z",
+    "org": {
+      "id": 65625612,
+      "login": "vitejs",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/vitejs",
+      "avatar_url": "https://avatars.githubusercontent.com/u/65625612?"
+    }
+  },
+  {
+    "id": "11838754009",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34129419882,
+      "ref": "refs/heads/main",
+      "head": "2458e6e5fe79bff0e6a9736fe63fc4059b2e68e5",
+      "before": "e490575ee9c866e696e12cf518a07d3cbf672eae"
+    },
+    "public": true,
+    "created_at": "2026-05-14T06:12:11Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11838727709",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "ref": "antfu/test-runtime-agnostic-entries",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/antfu/test-runtime-agnostic-entries",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-14T06:11:20Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "11838726049",
+    "type": "PushEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "repository_id": 1231722386,
+      "push_id": 34129391853,
+      "ref": "refs/heads/main",
+      "head": "e490575ee9c866e696e12cf518a07d3cbf672eae",
+      "before": "f163b29174e6919cd9d1738a9fac65a76101b207"
+    },
+    "public": true,
+    "created_at": "2026-05-14T06:11:16Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  },
+  {
+    "id": "9447291342",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 11247099,
+      "login": "antfu",
+      "display_login": "antfu",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/antfu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11247099?"
+    },
+    "repo": {
+      "id": 1231722386,
+      "name": "devframes/devframe",
+      "url": "https://api.github.com/repos/devframes/devframe"
+    },
+    "payload": {
+      "action": "merged",
+      "number": 15,
+      "pull_request": {
+        "url": "https://api.github.com/repos/devframes/devframe/pulls/15",
+        "id": 3680952283,
+        "number": 15,
+        "head": {
+          "ref": "antfu/test-runtime-agnostic-entries",
+          "sha": "0055f7306ca502e586a62b2efe83966ee45c2510",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        },
+        "base": {
+          "ref": "main",
+          "sha": "f163b29174e6919cd9d1738a9fac65a76101b207",
+          "repo": {
+            "id": 1231722386,
+            "url": "https://api.github.com/repos/devframes/devframe",
+            "name": "devframe"
+          }
+        }
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-14T06:11:15Z",
+    "org": {
+      "id": 279879373,
+      "login": "devframes",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/devframes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/279879373?"
+    }
+  }
+]
