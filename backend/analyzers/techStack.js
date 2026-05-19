@@ -20,5 +20,8 @@ export function computeTechStack(repos) {
     }))
     .sort((a, b) => b.count - a.count);
 
-  return { topLanguage: breakDown[0] ? breakDown[0].language : null, totalBreakDown: breakDown };
+  return { 
+    topLanguage: breakDown[0] ? breakDown[0].language : null,
+    totalBreakDown: breakDown 
+  };
 }
