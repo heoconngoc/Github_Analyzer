@@ -2,6 +2,9 @@ import { db } from "../db/database.js";
 import { fetchTrendingFromGithub } from "./githubTrendingService.js";
 import fs from "fs";
 
+import dotenv from "dotenv";
+dotenv.config();
+
 const OFFLINE_MODE = process.env.OFFLINE_MODE === "true";
 
 export async function updateTrendingCache(range = "all") {

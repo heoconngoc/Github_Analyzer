@@ -1,3 +1,6 @@
+// Frontend call github API directly to get user + repoUser. 
+// No to update go through backend first
+
 const BASE_URL = "https://api.github.com";
 
 export async function fetchUser(username) {

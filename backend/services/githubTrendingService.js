@@ -1,3 +1,6 @@
+import dotenv from "dotenv";
+dotenv.config();
+
 const OFFLINE_MODE = process.env.OFFLINE_MODE === "true";
 
 export async function fetchTrendingFromGithub(range = "all") {
@@ -16,7 +19,7 @@ export async function fetchTrendingFromGithub(range = "all") {
     + `?q=${encodeURIComponent(query)}`
     + `&sort=stars&order=desc&per_page=50`;
 
-  console.log("Github URL: ", url);
+  console.log("githubTrendingService.js - Github URL: ", url);
 
   const res = await fetch(url, {
     headers: {

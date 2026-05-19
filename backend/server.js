@@ -1,11 +1,11 @@
 import express from "express";
 import cors from "cors";
 
-import userRouter from "./routers/users.js";
-import trendingRouter from "./routers/trending_repos.js";
-
 import { initDatabase } from "./db/init.js";
 import { updateTrendingCache } from "./services/trendingCacheService.js";
+
+import userRouter from "./routers/users.js";
+import trendingRouter from "./routers/trending_repos.js";
 
 import dotenv from "dotenv";
 dotenv.config();
@@ -26,6 +26,7 @@ app.use(express.json());
 /* =========================
    INIT DATABASE
    ========================= */
+
 initDatabase();
 
 /* =========================
@@ -42,6 +43,7 @@ app.use("/api/trending", trendingRouter);
 /* =========================
    START SERVER
    ========================= */
+
 app.listen(PORT, () => {
   console.log(`Server is running at http://localhost:${PORT}`);
 });
@@ -51,7 +53,7 @@ app.listen(PORT, () => {
    ========================= */
 
 const OFFLINE_MODE = process.env.OFFLINE_MODE === "true";
-console.log("OFFLINE_MODE:" + OFFLINE_MODE);
+console.log("CURRENT OFFLINE_MODE:" + OFFLINE_MODE);
 
 if (!OFFLINE_MODE) {
   (async () => {
